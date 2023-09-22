@@ -12,7 +12,7 @@ total = 0
 maior = 0
 menor = 0
 for n in range(len(lista)):
-    total = total + n
+    total = total + lista[n]
     if lista[n] > lista[maior]:
         maior = n
     if lista[n] < lista[menor]:
