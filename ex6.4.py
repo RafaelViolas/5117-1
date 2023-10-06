@@ -39,4 +39,4 @@ for x in dicionario.values():
 for x in dicionario.keys():
     dckeys.append(x)
 
-print(ordenar(dcvalues, dckeys, -1))
+print(f'Dicionario depois de organizar: {ordenar(dcvalues, dckeys, -1)}')
